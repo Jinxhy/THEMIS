@@ -13,7 +13,7 @@ THEMIS is an automated tool designed to embed watermarks into on-device deep lea
 4. DL App Reassembling: integrate the watermarked model back into the app, generating a protected version of the original DL app.
 
 
-## Environment
+### Environment
 ```
 Python 3.8.7
 tensorflow 2.4.1
@@ -22,7 +22,7 @@ scikit-learn  1.1.2
 flatbuffers   1.12
 ```
 
-## Training On-device Deep Learning Models
+### Training On-device Deep Learning Models
 ```
 python model_training.py
 ```
