@@ -27,32 +27,32 @@ flatbuffers   1.12
 python model_training.py
 ```
 
-## Generating Model Informative Classes
+### Generating Model Informative Classes
 `Model_Rooting.ipynb` provides step-by-step explanations about Model Informative Classes generation.
 
 `tflite.zip` contains the generated Model Informative Classes.
 
-## Generate Datasets in Data Missing Scenario
+### Generate Datasets in Data Missing Scenario
 ```
 # Dataset, model and specific scenario can be configured within the scripts
 python difdb_inference.py
 python data_synthesizer.py
 ```
 
-## Generate Datasets in Data-scarce Scenario
+### Generate Datasets in Data-scarce Scenario
 ```
 # Dataset, model and specific scenario can be configured within the scripts
 python ds_data_generator.py
 python data_synthesizer.py
 ```
 
-## Embed Watermarks
+### Embed Watermarks
 ```
 # Dataset, model and specific scenario can be configured within the scripts
 python FFKEW.py
 ```
 
-## Embed Watermarks into Real-world DL Apps
+### Embed Watermarks into Real-world DL Apps
 - Decompose Android APKs: `python apk_decomposer.py`
 - Extract on-device models: `python model_extraction.py`
 - Watermark on-device models: `python FFKEWP.py`
