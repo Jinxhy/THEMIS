@@ -1,5 +1,8 @@
 # THEMIS: Towards Practical Intellectual Property Protection for Post-Deployment On-Device Deep Learning Models
-THEMIS is an automated tool designed to embed watermarks into on-device deep learning models from deep learning mobile applications (DL apps). It addresses the unique constraints of these models, such as being inference-only and having backpropagation disabled, through a structured four-step process:
+
+This is the official implementation of the USENIX 2024 paper [Prompt Stealing Attacks Against Text-to-Image Generation Models](https://arxiv.org/abs/2302.09923).
+
+## THEMIS is an automated tool designed to embed watermarks into on-device deep learning models from deep learning mobile applications (DL apps). It addresses the unique constraints of these models, such as being inference-only and having backpropagation disabled, through a structured four-step process:
 
 1. Model Extraction: extract an on-device model from a DL app for further processing.
 
