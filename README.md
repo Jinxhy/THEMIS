@@ -52,5 +52,5 @@ python FFKEW.py
 ## Embed Watermarks into Real-world DL Apps
 - Decompose Android APKs: `python apk_decomposer.py`
 - Extract on-device models: `python model_extraction.py`
-- Watermark on-device models: `python FFKEW/HP/TWP.py`
+- Watermark on-device models: `python FFKEWP.py`
 - Reassemble Android APKs with watermarked models: `python apk_reassembly.py`
