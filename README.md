@@ -1,4 +1,4 @@
-# THEMIS: Towards Practical Intellectual Property Protection for Post-Deployment On-Device Deep Learning Models
+## THEMIS: Towards Practical Intellectual Property Protection for Post-Deployment On-Device Deep Learning Models
 
 **This is the official implementation of the USENIX Security 2025 paper [THEMIS: Towards Practical Intellectual Property Protection for Post-Deployment On-Device Deep Learning Models]().**
 
